@@ -1,9 +1,9 @@
 package com.example.workouttracker.core.domain.model
 
-data class Workout(
+data class Routine(
     val id:String,
     val name:String,
-    val exercise: List<Exercise>
+    val workouts: List<Workout>,
 )
 
 
